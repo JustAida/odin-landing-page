@@ -40,6 +40,7 @@ body {
   border-radius: 5px;
   padding: 7px 15px;
   color: white;
+  border: transparent;
 }
 
 .image-placeholder {
@@ -58,7 +59,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10px 0 50px;
+  padding: 20px 0 50px;
 }
 
 .info-container {
@@ -90,15 +91,42 @@ body {
 .section-three {
   display: flex;
   flex-direction: column;
-  background-color: #E5E7EB
+  background-color: #E5E7EB;
+  padding: 100px;
+  align-items: flex-end;
+}
+
+.quote-from {
+  font-weight: bold;
+  font-size: 22px;
 }
 
 .section-four {
   display: flex;
+  padding: 60px;
 }
 
 .section-four-container {
   display: flex;
+  flex: 1;
+  padding: 40px 65px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-four button {
+  border-radius: 5px;
+  border: white solid 2px;
+  padding: 5px 15px;
+  color: white;
+}
+
+.call-to-action {
+  color: white;
+}
+
+.call-to-action .main-text {
+  font-weight: bold;
 }
 
 .section-one,
@@ -151,5 +179,15 @@ button,
   font-size: 36px;
   font-weight: lighter;
   font-style: italic;
-  color: #1F2937
+  color: #1F2937;
+  padding: 10px;
+  margin-left: 30px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  color: white;
 }
