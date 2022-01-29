@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-one {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+}
+
+.below-header {
+  display: flex;
+}
+
+.section-two {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-container {
+  display: flex;
+}
+
+.info-img {
+  border: 5px solid;
+  padding: 15px;
+}
+
+.section-three {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-four {
+  display: flex;
+}
+
+.section-four-container {
+  display: flex;
+}
